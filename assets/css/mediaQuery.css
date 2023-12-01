@@ -1,0 +1,109 @@
+@media screen and (max-width: 576px) {
+    .container{
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+    }
+    .header{
+        background-position-x: 50%;
+        background-position-y:0;
+        height: 550px;
+    }   
+    .nav-icon{
+        top: 200px;
+    }
+    .navbar{
+        text-align: center;
+        
+    }
+    .logo{
+        width: 100%;
+        padding: 0;
+    }
+    .nav{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .nav ul li{
+        width: 10%;
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .head{
+        margin-top: 110px;
+    }
+   .head h1{
+    font-size: 34px;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+   }
+   .head p{
+    font-size: 16px;
+   }
+   .head button{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 23.4px;
+    margin-bottom: 12px;
+   }
+    .chef{
+        text-align: center;
+        width: 100%;
+    }
+    .desc{
+        width: 100%;
+    }
+    .reviewers .float-item{
+        width: 100%;
+    }
+    .glass{
+        text-align: left;
+    }
+    .reviewe{
+        padding:0;
+        padding-top: 20px; 
+    }
+    .glass img{
+        width: 546px;
+        padding: 90px 0;
+    }
+    .inside {
+        background-attachment: scroll;
+        overflow: hidden;
+        background-position: center center;
+        background-size: cover;
+        margin: 0 -15px;
+        padding: 250px 0;
+
+    }
+    .dishes .float-item{
+        width: 100%;
+    }
+    .dishes {
+        padding-bottom: 50px;
+    }
+    .area .float-item{
+        width: 100%;
+        padding: 0;
+    }
+    .area .map{
+        padding-bottom: 85px;
+    }
+    .about .float-item{
+        width: 100%;
+    }
+    .about .about-us{
+        padding: 0;
+    }
+    .about .links{
+    padding: 0;
+    }
+    .about .hours{
+        padding: 0;
+    }
+    .about .contact{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+}

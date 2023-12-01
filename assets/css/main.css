@@ -1,0 +1,505 @@
+/* general css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+.container{
+    overflow: hidden;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.float-item{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+/* header */
+
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25))
+    ,url('../img/shutterstock_277750193.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+/*.header-con{
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.4);
+background-size: cover;
+overflow: hidden;
+}*/
+.nav-icon{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    position:fixed;
+    background-color: #fff;
+    right: 0;
+    top:230px;
+    width:50px;
+    height: 80px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.fa-gears{
+    padding-top: 7px;
+    padding-bottom: 20px;}
+
+/* Navbar */
+
+.navbar{
+   
+    position: fixed;
+    width: 100% ;
+    top: 0;
+}
+.logo{
+    width: 40%;
+    padding: 20px;
+}
+.logo img{
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.nav{
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    padding: 20px;
+    margin-left: 10px;
+    
+}
+.nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+font-weight: 400;
+font-family: 'Alegreya', serif;
+font-size: 20px;
+text-transform: capitalize;
+}
+
+.head{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+.head h1{
+font-size: 76px;
+font-weight: 400;
+font-family: 'Alegreya', serif;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.head p{
+    margin-top: 10;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.head button{
+    margin-top: 20px;
+    font-family: 'Alegreya', serif;
+    font-size: 16px;
+    padding: 15px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-weight: 600;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.learn-more{
+    background-color: #c1ab84;
+    color: white;
+    margin-right: 12px;
+}
+.learn-more:hover{
+    background-color:white;
+    color: black;
+}
+/* second div */
+.description{
+    margin-top: 80px;
+}
+
+.chef{
+width:50%
+}
+.desc{
+    width: 50%;
+    margin-top: 100px;
+}
+.desc h2{
+  font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 20px;  
+}
+.desc h3{
+    margin-bottom: 20px;
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.desc p{
+    margin-bottom:20px;
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.86em;
+    font-weight: 400;
+}
+.description .desc ul li{
+    list-style: none;
+
+}
+.desc .icon{
+    background-color: #c1ab84;
+    margin-right: 10px;
+    font-size: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    text-align: center;
+}
+.ser{
+    margin-bottom: 20px;
+}
+.desc ul li span{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    color: #686868;
+    font-size: 18px;
+}
+/* Third div */
+
+.reviewers{
+    background-color: #f8f8f8;
+    margin-top: 80px;
+}
+.reviewers .float-item{
+    width:50%;
+    
+}
+.reviewers .reviewe ul li{
+    list-style: none;
+}
+.reviewe{
+    padding: 90px 50px; 
+}
+.reviewe h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 20px;
+}
+.reviewe h3{
+    margin-bottom: 20px;
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.reviewe p{
+    margin-bottom:20px;
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.86em;
+    
+}
+.glass{
+    text-align: center;
+}
+.glass img{
+    width: 700px;
+    padding: 90px 50px;
+}
+.reviewe i{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 10px;
+}
+.reviewe ul li{
+    margin-bottom: 20px;
+    color: #686868;
+    font-family:'Alegreya Sans', sans-serif;
+    line-height: 1.86em;
+}
+.inside {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4))
+    ,url('../img/shutterstock_280369721.jpg');
+    background-attachment:fixed;
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: 0 -170px;
+    
+}
+
+/* Menu */
+.dishes{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    
+}
+.dishes .float-item{
+    width: 33.33%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.dishes .float-item img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dishes h2{
+    margin-top: 80px;
+    color: #253048;
+    font-size: 36px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.dishes h3{
+    margin-bottom: 20px;
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.dishes .menu .float-item h4{
+    color: #253048;
+    font-size: 21px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.dishes .menu .float-item p{
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.86em;
+}
+.dishes button{
+    margin-top: 20px;
+    font-family: 'Alegreya', serif;
+    font-size: 16px;
+    padding: 11px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-weight: 700;
+    background-color: #c1ab84;
+    color: white;
+    line-height: 1.3rem;
+    
+}
+/*.dishes .menu-button i:hover{
+    visibility: visible!important;
+}
+
+.dishes .menu-button i{
+    visibility: hidden;
+}*/
+
+/* contact */
+.area{
+    background-color: #f8f8f8;
+}
+.area .float-item{
+width: 50%;
+padding: 40px;
+}
+.area .disc-of-area ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.area .disc-of-area ul li i{
+    background-color: #c1ab84;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    line-height: 36px;
+    text-align: center;
+}
+.map iframe{
+    margin-top: 30px;
+    width: 100%;
+}
+.disc-of-area h2{
+    margin-top: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 20px;
+}
+.disc-of-area p{
+    margin-bottom:20px;
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.86em;
+}
+.area .disc-of-area ul li span{
+    margin-bottom:20px;
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.86em;
+}
+/* About div */
+.about .contact{
+    background-image:linear-gradient(rgba(64, 61, 56,0.9),rgba(64, 61, 56,0.9))
+    ,url('../img/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-position: center 150px;
+}
+.about{
+    background-color: rgb(64, 61, 56);
+color: #fff;
+}
+.about .float-item{
+    width: 25%;
+}
+.about ul li{
+    list-style: none;
+}
+
+.about h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about .about-us{
+     padding: 20px;
+}
+.about .links{
+    padding: 20px;
+}
+.about .hours{
+    padding: 20px;
+}
+.about .contact{
+    padding: 20px;
+}
+.about .contact ul li i{
+    padding-right: 5px;
+}
+.about ul li{
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400; 
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    
+}
+.about ul li a{
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400; 
+    text-decoration: none;
+}
+.about p{
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+.about .hours ul li i{
+    padding-right: 5px;
+}
+.about .links ul li a i{
+    padding-right: 5px;
+}
+/* footer */
+.footer{
+    background-color: #353330;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer img{
+    margin-bottom: 20px;
+}
+.footer p{
+    color: #777;
+    margin-bottom:20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.86em;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.footer ul li i{
+    color: #8c8a86;
+    background-color: #484540;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    border-radius: 100%;
+    
+}
+.fa-facebook-f:hover{
+    color: white;
+    background-color: #134e82;
+}
+.fa-instagram:hover{
+    color: white;
+    background-color: #264b6c;
+}
+.fa-tumblr:hover{
+    color: white;
+    background-color: #152e43;
+}
+.fa-twitter:hover{
+    color: white;
+    background-color:#0275d8;
+}
